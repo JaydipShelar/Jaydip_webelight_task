@@ -1,0 +1,299 @@
+{
+	"id": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+	"name": "webelight_practical",
+	"description": "",
+	"order": [
+		"9d5b6ac4-7f3c-d9d3-43ed-7083970df698",
+		"04fe573a-2acb-0440-99c1-a7e92d45a3bb",
+		"1a2cffbc-dda5-6a02-5456-b5ecb2e360d7",
+		"e8d34eb6-ca18-b5ee-1d81-971220223001",
+		"be109e05-120d-3e92-d241-a6521e5b6ef9",
+		"70616afb-fd48-6ca3-3511-db8db2d18b61",
+		"c1669f1a-5b39-689b-7dd5-05b422333e89",
+		"3d8f1b2d-95bd-0acf-789a-9a8c0a4ecbe0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1677934771452,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "04fe573a-2acb-0440-99c1-a7e92d45a3bb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/user/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1677936639858,
+			"name": "{{local}}/user/login",
+			"description": "",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"responses": [],
+			"rawModeData": "{\"mobile\":\"1111111111\",\"password\":\"123456\"}"
+		},
+		{
+			"id": "1a2cffbc-dda5-6a02-5456-b5ecb2e360d7",
+			"headers": "Content-Type: application/json\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/user/user_list",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1677938030368,
+			"name": "{{local}}/user/user_list",
+			"description": "",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"responses": [],
+			"rawModeData": "{ \"page\":\"1\",\"name\":\"\",\"search_key\":\"\",\"order_by\":\"desc\" }"
+		},
+		{
+			"id": "3d8f1b2d-95bd-0acf-789a-9a8c0a4ecbe0",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/product/product_details",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{local}}/product/product_details",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1677940791573,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"product_id\":\"10\" }"
+		},
+		{
+			"id": "70616afb-fd48-6ca3-3511-db8db2d18b61",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/product/edit_product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1677938706366,
+			"name": "{{local}}/product/edit_product",
+			"description": "",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"responses": [],
+			"rawModeData": "{\"product_id\":\"12\", \"product_name\" : \"test twelve\",\r\n            \"price\" : \"100\",\r\n            \"color\" : \"red\",\r\n            \"size\" : \"800\",\r\n            \"quantity\" : \"5\"}"
+		},
+		{
+			"id": "9d5b6ac4-7f3c-d9d3-43ed-7083970df698",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/user/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{local}}/user/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1677934773041,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"name\":\"jaydip\",\"email\":\"shelarjd007@gmail.com\",\"mobile\":\"8460856083\",\"password\":\"123456\"}"
+		},
+		{
+			"id": "be109e05-120d-3e92-d241-a6521e5b6ef9",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/product/product_list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{local}}/product/product_list",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1677937871543,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"page\":\"1\" ,\"product_name\":\"\",\"order_by\":\"desc\",\"search_key\":\"\"}"
+		},
+		{
+			"id": "c1669f1a-5b39-689b-7dd5-05b422333e89",
+			"headers": "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/product/delete_product",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{local}}/product/delete_product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1677938780917,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"product_id\":\"12\"}"
+		},
+		{
+			"id": "e8d34eb6-ca18-b5ee-1d81-971220223001",
+			"headers": "Content-Type: application/json\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2Nzc5MzU4OTAsImV4cCI6MTY3ODEwODY5MH0.3e_IpaeNqKMp2_qYDPCfFdDC5W05Zrj5QqBHdgnztpI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{local}}/product/add_product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1677937376816,
+			"name": "{{local}}/product/add_product",
+			"description": "",
+			"collectionId": "a6f9a954-c488-d5c6-1edd-ce476aedcb26",
+			"responses": [],
+			"rawModeData": "{ \"product_name\" : \"test twelve\",\r\n            \"price\" : \"50\",\r\n            \"color\" : \"blue\",\r\n            \"size\" : \"800\",\r\n            \"quantity\" : \"5\"}"
+		}
+	]
+}

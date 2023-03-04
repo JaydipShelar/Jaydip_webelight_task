@@ -1,0 +1,26 @@
+{
+
+	"text_user_not_exist":"User not exist",
+	"text_not_have_access":"User does not have access",
+	"text_user_list_success":"User list successfully loaded",
+	"text_user_list_not_found":"User list not found",
+	"text_product_added_success":"Product Added Successfully",
+	"text_product_add_fail" : "Unable to Add Product",
+	"something_went_wrong": "Something went wrong.",
+	"product_detail_success" : "Product Details Success",
+
+	"text_product_delete_successfully":"Product deleted successfully",
+	"mobile_already_exists":"Mobile number already exists",
+	"text_user_signup_success": "You have successfully signed up",
+	"rest_keywords_user_login_success": "Login successfully",
+	"rest_keywords_invalid_password": "Please enter valid password",
+	"mobile_not_exists":"User does not exists, please register first",
+	
+	"edit_success" : "Product Updated Successfully",
+	"edit_failure" : "Unable to Update Product Details",
+	"product_list_success" : "Product List Data Successfully Loaded",
+	"product_list_failure" : "Unable to Load Product List",
+	"product_detail_failure" : "Unable to find Product Details",
+	"went_wrong" : "Something Went Wrong"
+
+}
